@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DataBase"
+rootProject.name = "SuSach"
 include(":app")
  

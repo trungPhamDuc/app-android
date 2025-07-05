@@ -26,7 +26,19 @@
                 android:layout_marginTop="30dp"
                 android:padding="8dp"
                 android:hint="Email"
+                android:inputType="textEmailAddress"
                 android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="8dp"/>
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:id="@+id/signup_name"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="20dp"
+                android:padding="8dp"
+                android:hint="Full Name"
+                android:inputType="textPersonName"
+                android:drawableLeft="@drawable/baseline_person_24"
                 android:drawablePadding="8dp"/>
             <EditText
                 android:layout_width="350dp"
